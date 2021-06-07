@@ -1,0 +1,130 @@
+{
+  "locations": [
+    {
+      "name": "accounts/108494581129006735086/locations/13195921940790549583",
+      "locationName": "my fake Company",
+      "primaryPhone": "096 510 9597",
+      "primaryCategory": {
+        "displayName": "Сельский дом",
+        "categoryId": "gcid:mfr",
+        "moreHoursTypes": [
+          {
+            "hoursTypeId": "ACCESS",
+            "displayName": "Access",
+            "localizedDisplayName": "Доступ"
+          },
+          {
+            "hoursTypeId": "BRUNCH",
+            "displayName": "Brunch",
+            "localizedDisplayName": "Поздний завтрак"
+          },
+          {
+            "hoursTypeId": "DELIVERY",
+            "displayName": "Delivery",
+            "localizedDisplayName": "Доставка"
+          },
+          {
+            "hoursTypeId": "DRIVE_THROUGH",
+            "displayName": "Drive through",
+            "localizedDisplayName": "Обслуживание за рулем"
+          },
+          {
+            "hoursTypeId": "HAPPY_HOUR",
+            "displayName": "Happy hours",
+            "localizedDisplayName": "Часы скидок"
+          },
+          {
+            "hoursTypeId": "KITCHEN",
+            "displayName": "Kitchen",
+            "localizedDisplayName": "Кухня"
+          },
+          {
+            "hoursTypeId": "ONLINE_SERVICE_HOURS",
+            "displayName": "Online service hours",
+            "localizedDisplayName": "Часы онлайн-обслуживания"
+          },
+          {
+            "hoursTypeId": "PICKUP",
+            "displayName": "Pickup",
+            "localizedDisplayName": "Самовывоз"
+          },
+          {
+            "hoursTypeId": "TAKEOUT",
+            "displayName": "Takeout",
+            "localizedDisplayName": "Еда навынос"
+          },
+          {
+            "hoursTypeId": "SENIOR_HOURS",
+            "displayName": "Senior hours",
+            "localizedDisplayName": "Для пожилых покупателей"
+          }
+        ]
+      },
+      "websiteUrl": "https://my-fake-company.business.site/?utm_source=gmb&utm_medium=referral",
+      "regularHours": {
+        "periods": [
+          {
+            "openDay": "MONDAY",
+            "openTime": "00:00",
+            "closeDay": "MONDAY",
+            "closeTime": "24:00"
+          },
+          {
+            "openDay": "TUESDAY",
+            "openTime": "06:00",
+            "closeDay": "TUESDAY",
+            "closeTime": "19:30"
+          },
+          {
+            "openDay": "WEDNESDAY",
+            "openTime": "21:00",
+            "closeDay": "WEDNESDAY",
+            "closeTime": "22:00"
+          },
+          {
+            "openDay": "THURSDAY",
+            "openTime": "07:30",
+            "closeDay": "THURSDAY",
+            "closeTime": "22:30"
+          },
+          {
+            "openDay": "FRIDAY",
+            "openTime": "00:00",
+            "closeDay": "FRIDAY",
+            "closeTime": "24:00"
+          }
+        ]
+      },
+      "serviceArea": {
+        "businessType": "CUSTOMER_LOCATION_ONLY",
+        "places": {
+          "placeInfos": [
+            {
+              "name": "Украина",
+              "placeId": "ChIJjw5wVMHZ0UAREED2iIQGAQA"
+            }
+          ]
+        }
+      },
+      "locationKey": {
+        "placeId": "ChIJDfjoQdPT1EAR5AGQ7PTkRxw",
+        "requestId": "26ba7b32-21a8-446d-899c-12289174984c"
+      },
+      "openInfo": {
+        "status": "OPEN",
+        "canReopen": true
+      },
+      "locationState": {
+        "canUpdate": true,
+        "canDelete": true,
+        "isVerified": true,
+        "isPublished": true
+      },
+      "metadata": {
+        "mapsUrl": "https://maps.google.com/maps?cid=2037849097000452580",
+        "newReviewUrl": "https://search.google.com/local/writereview?placeid=ChIJDfjoQdPT1EAR5AGQ7PTkRxw"
+      },
+      "languageCode": "ru"
+    }
+  ]
+}

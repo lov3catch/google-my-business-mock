@@ -1,0 +1,14 @@
+{
+  "accounts": [
+    {
+      "name": "accounts/108494581129006735086",
+      "accountName": "Fake account #1",
+      "type": "PERSONAL",
+      "state": {
+        "status": "UNVERIFIED",
+        "vettedStatus": "NOT_VETTED"
+      },
+      "profilePhotoUrl": "//lh5.googleusercontent.com/-TZlUyPKnCmo/AAAAAAAAAAI/AAAAAAAAAAA/c6f2rBx9SQo/s132-mo/photo.jpg"
+    }
+  ]
+}

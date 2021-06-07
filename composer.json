@@ -1,0 +1,18 @@
+{
+    "name": "promorepublic/google-my-business-mock",
+    "description": "Mocked responses for google-my-business",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ihor K.",
+            "email": "lov3catch@gmail.com"
+        }
+    ],
+    "require": {
+        "phpstan/phpstan": "^0.12.88",
+        "psr/http-message": "^1.0",
+        "psr/http-client": "^1.0",
+        "guzzlehttp/guzzle": "^7.3"
+    }
+}
