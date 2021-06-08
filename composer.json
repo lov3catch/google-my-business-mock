@@ -16,5 +16,8 @@
     },
     "autoload": {
         "psr-4": {"GoogleMyBusinessMock\\": "src/"}
+    },
+    "require-dev": {
+        "staabm/annotate-pull-request-from-checkstyle": "^1.6"
     }
 }
