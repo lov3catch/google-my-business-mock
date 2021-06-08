@@ -27,3 +27,6 @@ jobs:
 
       - name: "checking coding standards"
         run: php tools/php-cs-fixer/vendor/bin/php-cs-fixer fix --config=tools/php-cs-fixer/.php_cs.dist.php --dry-run --format=checkstyle | cs2pr
+
+      - name: Show PHPCS results in PR
+        run: cs2pr tools/log.xml

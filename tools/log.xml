@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle>
+    <file name="../../src/GoogleMyBusinessFakeHttpClient.php">
+        <error line="21" column="8" severity="error" message="InvalidReturnType: Not all code paths of GoogleMyBusinessMock\GoogleMyBusinessFakeHttpClient::request end in a return statement, return type Symfony\Contracts\HttpClient\ResponseInterface expected"/>
+    </file>
+    <file name="../../src/GoogleMyBusinessFakeHttpClient.php">
+        <error line="23" column="20" severity="error" message="InvalidReturnStatement: The inferred type '&quot;&quot;' does not match the declared return type 'Symfony\Contracts\HttpClient\ResponseInterface' for GoogleMyBusinessMock\GoogleMyBusinessFakeHttpClient::request"/>
+    </file>
+    <file name="../../src/GoogleMyBusinessFakeHttpClient.php">
+        <error line="43" column="64" severity="error" message="InvalidReturnType: Not all code paths of GoogleMyBusinessMock\GoogleMyBusinessFakeHttpClient::stream end in a return statement, return type Symfony\Contracts\HttpClient\ResponseStreamInterface expected"/>
+    </file>
+    <file name="../../src/ResponseFactory.php">
+        <error line="18" column="8" severity="error" message="InvalidReturnType: Not all code paths of GoogleMyBusinessMock\ResponseFactory::makeAccountListResponse end in a return statement, return type string expected"/>
+    </file>
+    <file name="../../src/ResponseFactory.php">
+        <error line="26" column="16" severity="error" message="InternalMethod: The method Symfony\Component\HttpClient\Response\MockResponse::fromRequest is internal to Symfony but called from GoogleMyBusinessMock\ResponseFactory"/>
+    </file>
+    <file name="../../src/ResponseFactory.php">
+        <error line="41" column="16" severity="error" message="InternalMethod: The method Symfony\Component\HttpClient\Response\MockResponse::fromRequest is internal to Symfony but called from GoogleMyBusinessMock\ResponseFactory"/>
+    </file>
+    <file name="../../src/ResponseFactory.php">
+        <error line="56" column="16" severity="error" message="InternalMethod: The method Symfony\Component\HttpClient\Response\MockResponse::fromRequest is internal to Symfony but called from GoogleMyBusinessMock\ResponseFactory"/>
+    </file>
+    <file name="../../src/ResponseFactory.php">
+        <error line="70" column="8" severity="error" message="InvalidReturnType: Not all code paths of GoogleMyBusinessMock\ResponseFactory::makePostListResponse end in a return statement, return type Symfony\Contracts\HttpClient\ResponseInterface expected"/>
+    </file>
+    <file name="../../src/ResponseFactory.php">
+        <error line="78" column="16" severity="error" message="InternalMethod: The method Symfony\Component\HttpClient\Response\MockResponse::fromRequest is internal to Symfony but called from GoogleMyBusinessMock\ResponseFactory"/>
+    </file>
+    <file name="../../src/ResponseFactory.php">
+        <error line="92" column="8" severity="error" message="InvalidReturnType: Not all code paths of GoogleMyBusinessMock\ResponseFactory::makeAnswerListResponse end in a return statement, return type Symfony\Contracts\HttpClient\ResponseInterface expected"/>
+    </file>
+</checkstyle>
