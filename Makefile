@@ -11,4 +11,8 @@ coding-standard-check:
 	php tools/php-cs-fixer/vendor/bin/php-cs-fixer fix --config=tools/php-cs-fixer/.php_cs.dist.php --dry-run
 
 static-analysis:
-	php vendor/bin/phpstan analyze SdkFake
+	php tools/psalm/vendor/bin/psalm -c tools/psalm/psalm.xml --show-info=true --no-cache
+	php tools/psalm/vendor/bin/psalm -c tools/psalm/psalm.xml tests/static-analysis --no-cache
+
+install-static-analysis-dependencies:
+	cd tools/psalm && composer update
