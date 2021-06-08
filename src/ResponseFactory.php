@@ -9,10 +9,6 @@ namespace GoogleMyBusinessMock;
 use Symfony\Component\HttpClient\Response\MockResponse;
 use Symfony\Contracts\HttpClient\ResponseInterface;
 
-/**
- * Class ResponseFactory
- * @package GoogleMyBusinessMock
- */
 class ResponseFactory
 {
     public static function makeAccountListResponse(
@@ -32,7 +28,7 @@ class ResponseFactory
             $url,
             $options,
             new MockResponse(
-                @file_get_contents(__DIR__ . '/mock/location_list_response.json')
+                file_get_contents(__DIR__ . '/mock/location_list_response.json')
             )
         );
     }
@@ -47,7 +43,7 @@ class ResponseFactory
             $url,
             $options,
             new MockResponse(
-                @file_get_contents(__DIR__ . '/mock/review_list_response.json')
+                file_get_contents(__DIR__ . '/mock/review_list_response.json')
             )
         );
     }
@@ -62,7 +58,7 @@ class ResponseFactory
             $url,
             $options,
             new MockResponse(
-                @file_get_contents(__DIR__ . '/mock/review_detail_response.json')
+                file_get_contents(__DIR__ . '/mock/review_detail_response.json')
             )
         );
     }
@@ -84,7 +80,7 @@ class ResponseFactory
             $url,
             $options,
             new MockResponse(
-                @file_get_contents(__DIR__ . '/mock/question_list_response.json')
+                file_get_contents(__DIR__ . '/mock/question_list_response.json')
             )
         );
     }
