@@ -9,6 +9,10 @@ namespace GoogleMyBusinessMock;
 use Symfony\Component\HttpClient\Response\MockResponse;
 use Symfony\Contracts\HttpClient\ResponseInterface;
 
+/**
+ * Class ResponseFactory
+ * @package GoogleMyBusinessMock
+ */
 class ResponseFactory
 {
     public static function makeAccountListResponse(
