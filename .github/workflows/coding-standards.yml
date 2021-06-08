@@ -25,4 +25,4 @@ jobs:
           make install-root-dependencies
           make install-coding-standard-dependencies
       - name: "checking coding standards"
-        run: php tools/php-cs-fixer/vendor/bin/php-cs-fixer fix --config=tools/php-cs-fixer/.php_cs.dist.php --dry-run | cs2pr
+        run: php tools/php-cs-fixer/vendor/bin/php-cs-fixer fix --config=tools/php-cs-fixer/.php_cs.dist.php --dry-run --format=checkstyle | cs2pr
