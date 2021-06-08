@@ -1,12 +1,14 @@
-name: "coding standards"
+name: "static analysis"
 
 on:
   pull_request: ~
   push: ~
+  schedule:
+    - cron: '0 */3 * * *'
 
 jobs:
-  coding-standards:
-    name: "coding standards"
+  static-analysis:
+    name: "static analysis"
     runs-on: "ubuntu-latest"
     steps:
       - name: "checkout"
@@ -23,6 +25,9 @@ jobs:
       - name: "installing dependencies"
         run: |
           make install-root-dependencies
-          make install-coding-standard-dependencies
-      - name: "checking coding standards"
-        run: php tools/php-cs-fixer/vendor/bin/php-cs-fixer fix --config=tools/php-cs-fixer/.php_cs.dist.php --dry-run --format=checkstyle | cs2pr
+          make install-static-analysis-dependencies
+      - name: "running static analysis"
+        run: php tools/psalm/vendor/bin/psalm -c tools/psalm/psalm.xml --show-info=true --no-cache --output-format=checkstyle | cs2pr
+
+      - name: "calculating type coverage"
+        run: make type-coverage
