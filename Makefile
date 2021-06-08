@@ -12,7 +12,6 @@ coding-standard-check:
 
 static-analysis:
 	php tools/psalm/vendor/bin/psalm -c tools/psalm/psalm.xml --show-info=true --no-cache
-	php tools/psalm/vendor/bin/psalm -c tools/psalm/psalm.xml tests/static-analysis --no-cache
 
 install-static-analysis-dependencies:
 	cd tools/psalm && composer update

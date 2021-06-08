@@ -27,7 +27,7 @@ jobs:
           make install-root-dependencies
           make install-static-analysis-dependencies
       - name: "running static analysis"
-        run: make static-analysis
+        run: php tools/psalm/vendor/bin/psalm -c tools/psalm/psalm.xml --show-info=true --no-cache --output-format=checkstyle | cs2pr
 
       - name: "calculating type coverage"
         run: make type-coverage
