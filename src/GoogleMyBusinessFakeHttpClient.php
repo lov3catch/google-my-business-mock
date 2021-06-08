@@ -20,7 +20,7 @@ class GoogleMyBusinessFakeHttpClient implements HttpClientInterface
         array $options = []
     ): ResponseInterface {
         if ('https://mybusiness.googleapis.com/v4/accounts/108494581129006735086/locations' === $url && 'GET' === $method) {
-            return '';
+            return ResponseFactory::makeLocationListResponse($method, $url, $options);
         }
 
         if ('https://mybusiness.googleapis.com/v4/accounts/108494581129006735086/locations/6394464039148850881/reviews' === $url && 'GET' === $method) {

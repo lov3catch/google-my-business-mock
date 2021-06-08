@@ -15,7 +15,7 @@ class ResponseFactory
         string $method,
         string $url,
         array $options
-    ): string {
+    ): ResponseInterface {
     }
 
     public static function makeLocationListResponse(
