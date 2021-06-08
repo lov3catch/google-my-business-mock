@@ -16,7 +16,6 @@ jobs:
         uses: "shivammathur/setup-php@v2"
         with:
           php-version: "7.4"
-          coverage: none # disable xdebug, pcov
           ini-values: memory_limit=-1
           tools: composer:v2, cs2pr
           extensions: bcmath, mbstring, intl, sodium, json
@@ -27,7 +26,4 @@ jobs:
           make install-coding-standard-dependencies
 
       - name: "checking coding standards"
-        run: php tools/php-cs-fixer/vendor/bin/php-cs-fixer fix --config=tools/php-cs-fixer/.php_cs.dist.php --dry-run --format=checkstyle | cs2pr
-
-      - name: Show PHPCS results in PR
-        run: cs2pr tools/log.xml
+        run: make coding-standard-check
