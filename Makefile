@@ -1,3 +1,6 @@
+install-root-dependencies:
+	composer update
+
 install-coding-standard-dependencies:
 	cd tools/php-cs-fixer && composer update --ignore-platform-req php
 
