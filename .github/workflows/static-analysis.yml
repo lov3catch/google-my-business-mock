@@ -1,12 +1,14 @@
-name: "coding standards"
+name: "static analysis"
 
 on:
   pull_request: ~
   push: ~
+  schedule:
+    - cron: '0 */3 * * *'
 
 jobs:
-  coding-standards:
-    name: "coding standards"
+  static-analysis:
+    name: "static analysis"
     runs-on: "ubuntu-latest"
     steps:
       - name: "checkout"
@@ -23,7 +25,9 @@ jobs:
       - name: "installing dependencies"
         run: |
           make install-root-dependencies
-          make install-coding-standard-dependencies
+          make install-static-analysis-dependencies
+      - name: "running static analysis"
+        run: make static-analysis
 
-      - name: "checking coding standards"
-        run: make coding-standard-check
+      - name: "calculating type coverage"
+        run: make type-coverage

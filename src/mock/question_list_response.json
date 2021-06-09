@@ -18,7 +18,7 @@
         "profilePhotoUrl": "//lh4.ggpht.com/-hF4-8uWYLXg/AAAAAAAAAAI/AAAAAAAAAAA/ZaEkSoxlkYc/c0x00000000-cc-rp-mo/photo.jpg",
         "type": "REGULAR_USER"
       },
-      "text": "Новый вопрос, есть ли на вынос пицца?",
+      "text": "Did you have pizza",
       "createTime": "2021-03-02T11:07:46.041988Z",
       "updateTime": "2021-03-02T11:07:46.041988Z",
       "topAnswers": [
@@ -29,7 +29,7 @@
             "profilePhotoUrl": "//lh5.ggpht.com/-TZlUyPKnCmo/AAAAAAAAAAI/AAAAAAAAAAA/c6f2rBx9SQo/c0x00000000-cc-rp-mo/photo.jpg",
             "type": "MERCHANT"
           },
-          "text": "text - answer",
+          "text": "Yeap",
           "createTime": "2021-03-02T14:44:28.935769Z",
           "updateTime": "2021-03-02T14:45:36.788512Z"
         }

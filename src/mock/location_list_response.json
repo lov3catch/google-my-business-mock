@@ -125,6 +125,235 @@
         "newReviewUrl": "https://search.google.com/local/writereview?placeid=ChIJDfjoQdPT1EAR5AGQ7PTkRxw"
       },
       "languageCode": "ru"
+    },
+    {
+      "name": "accounts/108494581129006735086/locations/3933137874602126310",
+      "locationName": "botonarioum",
+      "primaryPhone": "096 827 9345",
+      "primaryCategory": {
+        "displayName": "Barber shop",
+        "categoryId": "gcid:barber_shop",
+        "serviceTypes": [
+          {
+            "serviceTypeId": "job_type_id:hair_coloring",
+            "displayName": "Hair coloring"
+          },
+          {
+            "serviceTypeId": "job_type_id:hair_extensions",
+            "displayName": "Hair extensions"
+          }
+        ],
+        "moreHoursTypes": [
+          {
+            "hoursTypeId": "DELIVERY",
+            "displayName": "Delivery",
+            "localizedDisplayName": "Delivery"
+          },
+          {
+            "hoursTypeId": "DRIVE_THROUGH",
+            "displayName": "Drive through",
+            "localizedDisplayName": "Drive through"
+          },
+          {
+            "hoursTypeId": "ONLINE_SERVICE_HOURS",
+            "displayName": "Online service hours",
+            "localizedDisplayName": "Online service hours"
+          },
+          {
+            "hoursTypeId": "PICKUP",
+            "displayName": "Pickup",
+            "localizedDisplayName": "Pickup"
+          },
+          {
+            "hoursTypeId": "SENIOR_HOURS",
+            "displayName": "Senior hours",
+            "localizedDisplayName": "Senior hours"
+          }
+        ]
+      },
+      "serviceArea": {
+        "businessType": "CUSTOMER_LOCATION_ONLY",
+        "places": {
+          "placeInfos": [
+            {
+              "name": "Kyiv, Ukraine, 02000",
+              "placeId": "ChIJBUVa4U7P1EAR_kYBF9IxSXY"
+            }
+          ]
+        }
+      },
+      "locationKey": {
+        "requestId": "1bddb57b-8f1c-4042-b985-5583fdccc68f"
+      },
+      "openInfo": {
+        "status": "OPEN",
+        "canReopen": true
+      },
+      "locationState": {
+        "canUpdate": true,
+        "canDelete": true,
+        "isDisconnected": true,
+        "canModifyServiceList": true
+      },
+      "metadata": {},
+      "languageCode": "en",
+      "priceLists": [
+        {
+          "priceListId": "0be3e87e-57c5-49b1-9090-ebf0a5ddfac9",
+          "labels": [
+            {
+              "displayName": "Jobs"
+            }
+          ],
+          "sections": [
+            {
+              "sectionId": "cda122d7-4ab4-4a98-9232-1e3cd42e85ad",
+              "labels": [
+                {
+                  "displayName": "Jobs"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "accounts/108494581129006735086/locations/6394464039148850881",
+      "locationName": "PromoRepublic",
+      "primaryPhone": "(650) 737-2590",
+      "primaryCategory": {
+        "displayName": "Business development service",
+        "categoryId": "gcid:business_development_service",
+        "moreHoursTypes": [
+          {
+            "hoursTypeId": "ACCESS",
+            "displayName": "Access",
+            "localizedDisplayName": "Access"
+          },
+          {
+            "hoursTypeId": "BRUNCH",
+            "displayName": "Brunch",
+            "localizedDisplayName": "Brunch"
+          },
+          {
+            "hoursTypeId": "DELIVERY",
+            "displayName": "Delivery",
+            "localizedDisplayName": "Delivery"
+          },
+          {
+            "hoursTypeId": "DRIVE_THROUGH",
+            "displayName": "Drive through",
+            "localizedDisplayName": "Drive through"
+          },
+          {
+            "hoursTypeId": "HAPPY_HOUR",
+            "displayName": "Happy hours",
+            "localizedDisplayName": "Happy hours"
+          },
+          {
+            "hoursTypeId": "KITCHEN",
+            "displayName": "Kitchen",
+            "localizedDisplayName": "Kitchen"
+          },
+          {
+            "hoursTypeId": "ONLINE_SERVICE_HOURS",
+            "displayName": "Online service hours",
+            "localizedDisplayName": "Online service hours"
+          },
+          {
+            "hoursTypeId": "PICKUP",
+            "displayName": "Pickup",
+            "localizedDisplayName": "Pickup"
+          },
+          {
+            "hoursTypeId": "TAKEOUT",
+            "displayName": "Takeout",
+            "localizedDisplayName": "Takeout"
+          },
+          {
+            "hoursTypeId": "SENIOR_HOURS",
+            "displayName": "Senior hours",
+            "localizedDisplayName": "Senior hours"
+          }
+        ]
+      },
+      "websiteUrl": "http://promorepublic.com/",
+      "regularHours": {
+        "periods": [
+          {
+            "openDay": "SUNDAY",
+            "openTime": "00:00",
+            "closeDay": "SUNDAY",
+            "closeTime": "24:00"
+          },
+          {
+            "openDay": "MONDAY",
+            "openTime": "00:00",
+            "closeDay": "MONDAY",
+            "closeTime": "24:00"
+          },
+          {
+            "openDay": "TUESDAY",
+            "openTime": "00:00",
+            "closeDay": "TUESDAY",
+            "closeTime": "24:00"
+          },
+          {
+            "openDay": "WEDNESDAY",
+            "openTime": "00:00",
+            "closeDay": "WEDNESDAY",
+            "closeTime": "24:00"
+          },
+          {
+            "openDay": "THURSDAY",
+            "openTime": "00:00",
+            "closeDay": "THURSDAY",
+            "closeTime": "24:00"
+          },
+          {
+            "openDay": "FRIDAY",
+            "openTime": "00:00",
+            "closeDay": "FRIDAY",
+            "closeTime": "24:00"
+          },
+          {
+            "openDay": "SATURDAY",
+            "openTime": "00:00",
+            "closeDay": "SATURDAY",
+            "closeTime": "24:00"
+          }
+        ]
+      },
+      "locationKey": {
+        "placeId": "ChIJ_cmi3Tm7j4ARUuw_1J6i9aQ"
+      },
+      "openInfo": {
+        "status": "OPEN",
+        "canReopen": true
+      },
+      "locationState": {
+        "canUpdate": true,
+        "canDelete": true,
+        "isVerified": true,
+        "isPublished": true
+      },
+      "metadata": {
+        "mapsUrl": "https://maps.google.com/maps?cid=11886585594563783762",
+        "newReviewUrl": "https://search.google.com/local/writereview?placeid=ChIJ_cmi3Tm7j4ARUuw_1J6i9aQ"
+      },
+      "languageCode": "en",
+      "address": {
+        "regionCode": "US",
+        "languageCode": "en",
+        "postalCode": "94301",
+        "administrativeArea": "CA",
+        "locality": "Palo Alto",
+        "addressLines": [
+          "470 Ramona St"
+        ]
+      }
     }
-  ]
+  ],
+  "nextPageToken": "ABHRLXUTG5lgVSRqPXo1FNBh0YQB0bDGMIlmbjUN8Zsi67YYlrzHwWg"
 }
