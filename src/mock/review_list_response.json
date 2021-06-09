@@ -15,8 +15,21 @@
         "updateTime": "2021-03-02T11:03:45.142Z"
       },
       "name": "accounts/108494581129006735086/locations/6394464039148850881/reviews/AbFvOqmDfUP0EhJuYm-w3KXy3gSxYn-NS9CiDOo4tOjO4PRuq4PWUWbGkh6K-fePdKQaXi0cycFGGg"
+    },
+    {
+      "reviewId": "AbFvOqmDfUP0EhJuYm-w3KXy3gSxYn-NS9CiDOo4tOjO4PRuq4PWUWbGkh6K-fePdKQaXi0cycFGGg",
+      "reviewer": {
+        "profilePhotoUrl": "https://lh3.googleusercontent.com/a-/AOh14Ghk9qWwf0g3ocE_mVJO7lzFcdiNxyYIIlQi9bvKLw=c0x00000000-cc-rp",
+        "displayName": "Vasya P"
+      },
+      "starRating": "FIVE",
+      "comment": "Best coffeeshop",
+      "createTime": "2021-03-02T10:47:32.807Z",
+      "updateTime": "2021-03-02T10:47:32.807Z",
+      "reviewReply": null,
+      "name": "accounts/108494581129006735086/locations/6394464039148850881/reviews/AbFvOqmDfUP0EhJuYm-w3KXy3gSxYn-NS9CiDOo4tOjO4PRuq4PWUWbGkh6K-fePdKQaXi0cycFGGg"
     }
   ],
   "averageRating": 5,
-  "totalReviewCount": 1
+  "totalReviewCount": 2
 }
